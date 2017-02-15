@@ -75,4 +75,4 @@ hello vue
 ```
 [示例](http://lavyun.github.io/learn-vue/vue/2-HelloVue/demo2.html)
 
-当改变输入框中的值的时候，绑定的数据也会随之改变，这个效果的实现后面会提到。
+当改变输入框中的值的时候，绑定的数据也会随之改变，这个效果的实现以后会提到。
