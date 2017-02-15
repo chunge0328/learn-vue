@@ -52,8 +52,9 @@ hello vue
     })
 </script>
 ```
+[示例](http://lavyun.github.io/learn-vue/vue/2-HelloVue/demo1.html)
 
-这里的`v-on`是绑定事件的意思，只要是合法的浏览器事件都可以绑定，也可以简写为`@click`，当点击按钮时`hello vue` 就变成了`hello everybody`
+这里的`v-on：click`是绑定点击事件的意思，只要是合法的浏览器事件都可以绑定，也可以简写为`@click`，当点击按钮时`hello vue` 就变成了`hello everybody`
 
 <br><br>
 再来看一个双向绑定
@@ -72,6 +73,6 @@ hello vue
     })
 </script>
 ```
-[示例地址](http://lavyun.github.io/learn-vue/vue/2-HelloVue/demo2.html)
+[示例](http://lavyun.github.io/learn-vue/vue/2-HelloVue/demo2.html)
 
 当改变输入框中的值的时候，绑定的数据也会随之改变，这个效果的实现后面会提到。

@@ -28,24 +28,24 @@
               <first_editor vertical-scroll-proportion="0.09876543">
                 <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
                 <folding>
-                  <marker date="1487136232408" expanded="true" signature="54:96" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="54:274" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="103:163" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="122:155" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="173:273" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="187:263" placeholder="{&quot;el&quot;: '#app'...}" />
-                  <marker date="1487136232408" expanded="true" signature="223:257" placeholder="{&quot;msg&quot;: 'hello world'...}" />
-                  <marker date="1487136232408" expanded="true" signature="348:425" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="435:658" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="485:519" placeholder="{&quot;msg&quot;: 'Vue'...}" />
-                  <marker date="1487136232408" expanded="true" signature="577:632" placeholder="{...}" />
-                  <marker date="1487136232408" expanded="true" signature="632:642" placeholder="{...}" />
-                  <marker date="1487136232408" expanded="true" signature="632:648" placeholder="{&quot;el&quot;: '#app'...}" />
-                  <marker date="1487136232408" expanded="true" signature="632:658" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="796:853" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="863:968" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="877:958" placeholder="{&quot;el&quot;: '#app'...}" />
-                  <marker date="1487136232408" expanded="true" signature="913:952" placeholder="{&quot;msg&quot;: 'hello vue'...}" />
+                  <marker date="1487136615133" expanded="true" signature="54:96" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="54:274" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="103:163" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="122:155" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="173:273" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="187:263" placeholder="{&quot;el&quot;: '#app'...}" />
+                  <marker date="1487136615133" expanded="true" signature="223:257" placeholder="{&quot;msg&quot;: 'hello world'...}" />
+                  <marker date="1487136615133" expanded="true" signature="348:425" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="435:658" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="485:519" placeholder="{&quot;msg&quot;: 'Vue'...}" />
+                  <marker date="1487136615133" expanded="true" signature="577:632" placeholder="{...}" />
+                  <marker date="1487136615133" expanded="true" signature="632:642" placeholder="{...}" />
+                  <marker date="1487136615133" expanded="true" signature="632:648" placeholder="{&quot;el&quot;: '#app'...}" />
+                  <marker date="1487136615133" expanded="true" signature="632:658" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="870:927" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="937:1042" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="951:1032" placeholder="{&quot;el&quot;: '#app'...}" />
+                  <marker date="1487136615133" expanded="true" signature="987:1026" placeholder="{&quot;msg&quot;: 'hello vue'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -53,27 +53,27 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.38271606">
-                <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+              <first_editor vertical-scroll-proportion="0.80246913">
+                <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
                 <folding>
-                  <marker date="1487136232408" expanded="true" signature="54:96" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="54:274" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="103:163" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="122:155" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="173:273" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="187:263" placeholder="{&quot;el&quot;: '#app'...}" />
-                  <marker date="1487136232408" expanded="true" signature="223:257" placeholder="{&quot;msg&quot;: 'hello world'...}" />
-                  <marker date="1487136232408" expanded="true" signature="348:425" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="435:658" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="485:519" placeholder="{&quot;msg&quot;: 'Vue'...}" />
-                  <marker date="1487136232408" expanded="true" signature="577:632" placeholder="{...}" />
-                  <marker date="1487136232408" expanded="true" signature="632:642" placeholder="{...}" />
-                  <marker date="1487136232408" expanded="true" signature="632:648" placeholder="{&quot;el&quot;: '#app'...}" />
-                  <marker date="1487136232408" expanded="true" signature="632:658" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="796:853" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="863:968" placeholder="..." />
-                  <marker date="1487136232408" expanded="true" signature="877:958" placeholder="{&quot;el&quot;: '#app'...}" />
-                  <marker date="1487136232408" expanded="true" signature="913:952" placeholder="{&quot;msg&quot;: 'hello vue'...}" />
+                  <marker date="1487136615133" expanded="true" signature="54:96" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="54:274" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="103:163" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="122:155" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="173:273" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="187:263" placeholder="{&quot;el&quot;: '#app'...}" />
+                  <marker date="1487136615133" expanded="true" signature="223:257" placeholder="{&quot;msg&quot;: 'hello world'...}" />
+                  <marker date="1487136615133" expanded="true" signature="348:425" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="435:658" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="485:519" placeholder="{&quot;msg&quot;: 'Vue'...}" />
+                  <marker date="1487136615133" expanded="true" signature="577:632" placeholder="{...}" />
+                  <marker date="1487136615133" expanded="true" signature="632:642" placeholder="{...}" />
+                  <marker date="1487136615133" expanded="true" signature="632:648" placeholder="{&quot;el&quot;: '#app'...}" />
+                  <marker date="1487136615133" expanded="true" signature="632:658" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="870:927" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="937:1042" placeholder="..." />
+                  <marker date="1487136615133" expanded="true" signature="951:1032" placeholder="{&quot;el&quot;: '#app'...}" />
+                  <marker date="1487136615133" expanded="true" signature="987:1026" placeholder="{&quot;msg&quot;: 'hello vue'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -324,10 +324,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -411,8 +411,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.38271606">
-            <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+          <first_editor vertical-scroll-proportion="0.80246913">
+            <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
