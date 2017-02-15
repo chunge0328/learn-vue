@@ -1,0 +1,20 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    hello {{msg}}
+    <button @click="handleClick">click</button>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            msg: 'Vue'
+        },
+        methods: {
+            handleClick: function () {
+                this.msg = 'everybody';
+            }
+        }
+    })
+</script>
+
