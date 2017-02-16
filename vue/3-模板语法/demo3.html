@@ -1,0 +1,12 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    <img v-bind:src="img">
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            img: "https://vuefe.cn/images/logo.png"
+        }
+    })
+</script>

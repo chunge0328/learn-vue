@@ -1,0 +1,24 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    {{ num1 | isEven }}
+    {{ num2 | isEven }}
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            num1: 1,
+            num2: 2
+        },
+        filters:{
+            isEven:function(value){ //判断是不是偶数的过滤器
+                if(value%2==0){
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+    })
+</script>

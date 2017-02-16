@@ -1,0 +1,14 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    <input type="text" v-model="inputType">
+    <input :type="inputType">
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            inputType: 'text'
+        }
+    })
+</script>

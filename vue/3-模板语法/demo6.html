@@ -1,0 +1,24 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    {{ num1 | bigThan(4) }}
+    {{ num2 | bigThan(1) }}
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            num1: 1,
+            num2: 2
+        },
+        filters: {
+            bigThan: function (value, num) { //判断是不是大于某个数的过滤器
+                if (value > num) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+    })
+</script>

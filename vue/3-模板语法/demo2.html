@@ -1,0 +1,14 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    <textarea cols="150" rows="20" v-model="htmlSource"></textarea>
+    <div v-html="htmlSource"></div>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            htmlSource:'<div><img src="https://vuefe.cn/images/logo.png"></div>'
+        }
+    })
+</script>
