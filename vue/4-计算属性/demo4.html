@@ -1,0 +1,31 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    <input type="text" v-model="message">
+    {{ message }} 的首字母是 {{ a }}，长度是{{ b }}，其中有{{ c }}个元音字母，{{ d }}个大写字母，{{ e }}个数字
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: '',
+            a: 0, b: 0, c: 0, d: 0, e: 0
+        },
+        computed:{
+            a:function(){
+                return this.message.substr(0,1);
+            },
+            b:function(){
+                return this.message.length;
+            },
+            c:function(){
+                return this.message.replace(/[^AaEeIiOoUu]/g,'').length;
+            },
+            d:function(){
+                return this.message.replace(/[^A-Z]/g,'').length;
+            },
+            e:function(){
+                return this.message.replace(/[^\d]/g,'').length;
+            }
+        }
+    })
+</script>

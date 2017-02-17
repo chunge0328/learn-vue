@@ -1,0 +1,17 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    {{ numBigThanZero }}
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            num: 2
+        },
+        computed: {
+            numBigThanZero: function () {
+                return this.num > 0 ? true : false;
+            }
+        }
+    })
+</script>

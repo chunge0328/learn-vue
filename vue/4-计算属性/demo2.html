@@ -1,0 +1,23 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    {{ numBigThanZero }}
+    <button @click="numBigThanZero=false">click</button>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            num: 2
+        },
+        computed: {
+            numBigThanZero: {
+                get: function () {
+                    return this.num > 0 ? true : false;
+                },
+                set: function (newValue) {
+                    this.num = 0;
+                }
+            }
+        }
+    })
+</script>
