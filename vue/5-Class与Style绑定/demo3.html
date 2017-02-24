@@ -1,0 +1,19 @@
+<script src="../lib/vue.min.js"></script>
+<style>
+    .wrap{width: 300px;height: 180px;background-size: 100% 100%;background-position: center;background-repeat: no-repeat}
+</style>
+<div id="app">
+    <div class="wrap" :style="{ 'background-image': 'url(../images/' + imgList[index] + ')' }"></div>
+    <button @mouseover="index=0">1</button>
+    <button @mouseover="index=1">2</button>
+    <button @mouseover="index=2">3</button>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            imgList: ['bg1.png','bg2.jpg','bg3.jpg'],
+            index: 0
+        }
+    })
+</script>

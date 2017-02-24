@@ -1,0 +1,28 @@
+<script src="../lib/vue.min.js"></script>
+<style>
+    .text-green {color: green;}
+    .text-red {color: red;}
+</style>
+<div id="app">
+    <h1 :class="myClass">this is message 1</h1>
+    <input type="text" v-model="message">
+    <h1 :class="textAlign">this is message 2</h1>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            myClass: 'text-green',
+            message: ''
+        },
+        computed: {
+            textAlign: function () {
+                if (this.message.length % 2 === 0) {
+                    return 'text-green'
+                } else {
+                    return 'text-red'
+                }
+            }
+        }
+    })
+</script>

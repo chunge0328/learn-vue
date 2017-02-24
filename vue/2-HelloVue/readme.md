@@ -1,8 +1,7 @@
-### Hello Vue
+Hello Vue
+----
 
----
-
-什么都别说了，赶紧来写个hello world吧。
+前面介绍了Vue的安装，现在我们开始真正进入Vue了，我想你肯定已经等不及了，赶紧来写个hello world吧。
 
 ```html
 <script src="../lib/vue.min.js"></script>
@@ -23,13 +22,13 @@
 </script>
 ```
 
-得到如下结果
+会得到如下结果
 ```
 hello vue
 ```
 
+<br>
 
-<br><br>
 再绑定一个用户事件
 
 ```html
@@ -56,7 +55,8 @@ hello vue
 
 这里的`v-on：click`是绑定点击事件的意思，只要是合法的浏览器事件都可以绑定，也可以简写为`@click`，当点击按钮时`hello vue` 就变成了`hello everybody`
 
-<br><br>
+<br>
+
 再来看一个双向绑定
 ```html
 <div id="app">
@@ -75,4 +75,6 @@ hello vue
 ```
 [演示](http://lavyun.github.io/learn-vue/vue/2-HelloVue/demo2.html)
 
-当改变输入框中的值的时候，绑定的数据也会随之改变，这个效果的实现以后会提到。
+当改变输入框中的值的时候，绑定的数据也会随之改变，这个效果的实现后面我再做介绍。
+接下来一起来详细的学习Vue的语法吧。
+
