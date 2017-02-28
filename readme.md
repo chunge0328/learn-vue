@@ -14,5 +14,6 @@
 4. [计算属性](https://github.com/lavyun/learn-vue/tree/master/vue/4-计算属性)
 5. [Class与Style绑定](https://github.com/lavyun/learn-vue/tree/master/vue/5-Class与Style绑定)
 6. [条件渲染](https://github.com/lavyun/learn-vue/tree/master/vue/6-条件渲染)
+7. [列表循环](https://github.com/lavyun/learn-vue/tree/master/vue/7-列表循环)
 
 loading...
