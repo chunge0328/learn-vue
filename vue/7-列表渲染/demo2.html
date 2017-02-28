@@ -1,0 +1,22 @@
+<script src="../lib/vue.min.js"></script>
+<div id="app">
+    <p v-for="item in items">{{ item }}</p>
+    <button @click="changeIndex">直接改变索引</button>
+    <button @click="VueSet">Vue.set()</button>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            items: [1, 2, 3, 4, 5]
+        },
+        methods: {
+            changeIndex: function () {
+                this.items[1] = new Date();
+            },
+            VueSet: function () {
+                Vue.set(this.items, 1, new Date());
+            }
+        }
+    })
+</script>

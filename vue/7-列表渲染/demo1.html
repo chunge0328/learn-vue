@@ -1,0 +1,22 @@
+<script src="../lib/vue.min.js"></script>
+<style>
+    .range{display: inline-block;width: 20px;text-align: center;border-radius: 5px;color: #fff}
+    .range-0{background-color: red}
+    .range-1{background-color: blueviolet}
+    .range-2{background-color: green}
+</style>
+
+<div id="app">
+    Music Ranking list
+    <p v-for="(item, index) in items">
+       <span :class="{['range-' + index]: index<3}" class="range">{{index}}</span> {{item}}
+    </p>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            items: ['北京欢迎你', '上海欢迎你', '杭州欢迎你', '深圳欢迎你', '成都欢迎你']
+        }
+    })
+</script>
