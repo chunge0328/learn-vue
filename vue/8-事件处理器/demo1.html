@@ -1,0 +1,19 @@
+<script src="../lib/vue.js"></script>
+<div id="app">
+    <input @input="change">
+    <p>{{inputText}}</p>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            inputText: ''
+        },
+        methods: {
+            change: function (event) {
+                var value = event.target.value;
+                this.inputText = value;
+            }
+        }
+    })
+</script>
